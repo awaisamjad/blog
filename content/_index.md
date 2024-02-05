@@ -5,3 +5,8 @@ draft : false
 ---
 
 ## Welcome to my blog
+### About Me
+
+Click on the blog links above to read my blog posts.
+
+Click on the projects link above to see my projects.
