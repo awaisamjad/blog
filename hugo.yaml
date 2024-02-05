@@ -1,3 +1,25 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: My New Hugo Site
+theme : hextra
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
+      weight: 3
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/imfing/hextra"
+      params:
+        icon: github
+    
