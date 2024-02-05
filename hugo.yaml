@@ -22,4 +22,9 @@ menu:
       url: "https://github.com/imfing/hextra"
       params:
         icon: github
+    - name: LinkedIn
+      weight: 7
+      url: "https://www.linkedin.com/in/awais-amjad-1b3b3b1a/"
+      params:
+        icon: linkedin
     
