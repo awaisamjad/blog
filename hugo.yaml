@@ -7,7 +7,7 @@ menu:
   main:
     - identifier: blog
       name: Blog
-      pageRef: /blog
+      pageRef: /posts
       weight: 1
     - identifier: projects
       name: Projects
@@ -23,7 +23,7 @@ menu:
         type: search
     - name: GitHub
       weight: 4
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/awaisamjad"
       params:
         icon: github
     - name: LinkedIn
