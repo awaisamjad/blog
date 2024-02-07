@@ -12,6 +12,9 @@ Click on the blog links above to read my blog posts.
 Click on the projects link above to see my projects.
 
 {{< cards >}}
-  {{< card link="../callout" title="Ziglings Solutions" icon="warning" >}}
-  {{< card link="/" title="No Icon" >}}
+  {{< card link = "/blog" title = "Blog">}}
+  {{< card link = "/projects" title = "Projects">}}
+   {{< card link="../advent-of-code" title="Advent Of Code">}}
+  {{< card link="../ziglings" title="Ziglings" image="images/ziglings.jpg" subtitle="Answers to Zigling exercises">}}
+  {{< card link="../rustlings" title="Rustlings" image="images/rust-mascot.png" subtitle="Answers to Rustling exercises">}}
 {{< /cards >}}
