@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awais Amjad Blog – Processing Clone</title>
+    <link>http://localhost:1313/blog/projects/processing-clone/</link>
+    <description>Recent content in Processing Clone on Awais Amjad Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 18:06:37 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/blog/projects/processing-clone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

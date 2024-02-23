@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awais Amjad Blog – Posts</title>
+    <link>http://localhost:1313/blog/posts/</link>
+    <description>Recent content in Posts on Awais Amjad Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 16:39:29 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Why JavaScript is Trash</title>
+      <link>http://localhost:1313/blog/posts/why-javascript-is-trash/</link>
+      <pubDate>Mon, 05 Feb 2024 18:23:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/why-javascript-is-trash/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

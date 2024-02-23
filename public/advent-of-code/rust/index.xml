@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awais Amjad Blog – Rust</title>
+    <link>http://localhost:1313/blog/advent-of-code/rust/</link>
+    <description>Recent content in Rust on Awais Amjad Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 20:20:36 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/blog/advent-of-code/rust/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>2023</title>
+      <link>http://localhost:1313/blog/advent-of-code/rust/2023/</link>
+      <pubDate>Mon, 05 Feb 2024 20:20:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/advent-of-code/rust/2023/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awais Amjad Blog – Neural Network</title>
+    <link>http://localhost:1313/blog/projects/neural-network/</link>
+    <description>Recent content in Neural Network on Awais Amjad Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 19:51:39 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/blog/projects/neural-network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
