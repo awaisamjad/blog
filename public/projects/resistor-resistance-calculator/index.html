@@ -26,9 +26,14 @@ GitHub Prerequisites Basic JavaScript and HTML Understanding of how to calculate
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/blog/projects/resistor-resistance-calculator/" />
 
+  
   <meta itemprop="name" content="Resistor Resistance Calculator">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Resistor Resistance Calculator"/>
-<meta name="twitter:description" content=""/>
+  <meta itemprop="description" content="Introduction This is a tutorial to calculate the resistance of a resistor. When i work on any electronics project and forget what the resistance of the resistor im using is i end up having to look it up. I then thought that this would be a good quick project to do.
+GitHub Prerequisites Basic JavaScript and HTML Understanding of how to calculate the resistance of a resistor through their colour bands Technologies used Any JavaScript framework or Vanilla JS can be used but we will be using Svelte Setup Step 1 Open your terminal/command prompt and navigate to where you want to create your project">
+  <meta itemprop="datePublished" content="2024-02-23T17:20:45+00:00">
+  <meta itemprop="dateModified" content="2024-02-23T17:20:45+00:00">
+  <meta itemprop="wordCount" content="712"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Resistor Resistance Calculator">
+<meta name="twitter:description" content="">
 
     <link href="/blog/css/compiled/main.css" rel="stylesheet" />
 
@@ -66,16 +71,25 @@ GitHub Prerequisites Basic JavaScript and HTML Understanding of how to calculate
 
   
   
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-47N47DBEDM"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-47N47DBEDM', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-47N47DBEDM"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-47N47DBEDM');
+        }
+      </script>
+    
+  
+
 
 </head>
 <body dir="ltr"><div class="nav-container sticky top-0 z-20 w-full bg-transparent print:hidden">
@@ -107,6 +121,13 @@ if (!doNotTrack) {
             class="text-sm contrast-more:text-gray-700 contrast-more:dark:text-gray-100 relative -ml-2 hidden whitespace-nowrap p-2 md:inline-block text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
           >
             <span class="text-center">Advent of Code</span>
+          </a><a
+            title="Tutoring"
+            href="/blog/tutor"
+            
+            class="text-sm contrast-more:text-gray-700 contrast-more:dark:text-gray-100 relative -ml-2 hidden whitespace-nowrap p-2 md:inline-block text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+          >
+            <span class="text-center">Tutoring</span>
           </a><div class="search-wrapper relative md:w-64">
   <div class="relative flex items-center text-gray-900 contrast-more:text-gray-800 dark:text-gray-300 contrast-more:dark:text-gray-300">
     <input
@@ -178,6 +199,24 @@ if (!doNotTrack) {
           <li class=""><a
     class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-primary-100/5 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50"
+    href="/blog/tutor/"
+    
+  >Tutors
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg></span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class='relative flex flex-col gap-1 before:absolute before:inset-y-1 before:w-px before:bg-gray-200 before:content-[""] ltr:ml-3 ltr:pl-3 ltr:before:left-0 rtl:mr-3 rtl:pr-3 rtl:before:right-0 dark:before:bg-neutral-800'><li class="flex flex-col "><a
+    class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-primary-100/5 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50"
+    href="/blog/tutor/core-1/complex-numbers/"
+    
+  >Complex Numbers
+    </a>
+              
+            </li></ul>
+      </div></li>
+          <li class=""><a
+    class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-primary-100/5 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50"
     href="/blog/advent-of-code/"
     
   >Advent of Code
@@ -231,6 +270,14 @@ if (!doNotTrack) {
     href="/blog/advent-of-code/rust/2023/day-1/"
     
   >Day 1
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-primary-100/5 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50"
+    href="/blog/advent-of-code/rust/2023/day-2/"
+    
+  >Day 2
     </a>
               
             </li></ul>
@@ -442,6 +489,18 @@ if (!doNotTrack) {
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="ltr:pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 w-full break-words" href="#step-3-1">Step 3
+        </a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="ltr:pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 w-full break-words" href="#step-4">Step 4
+        </a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="ltr:pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 w-full break-words" href="#step-5">Step 5
+        </a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="ltr:pl-12 rtl:pr-12 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 w-full break-words" href="#example">Example
         </a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
@@ -684,7 +743,7 @@ When i work on any electronics project and forget what the resistance of the res
     <a href="#code" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><!-- raw HTML omitted -->
 <h3>Step 1<span class="absolute -mt-20" id="step-1-1"></span>
     <a href="#step-1-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>The first three bands have the same colours which correspond to the same numbers. Therefore we can reuse this object for each band.</p>
-<p>As each colour corresponds/maps to 1 number a dictionary/hashmap/object is the perfect data structure to hold this data.</p>
+<p>As each colour corresponds/maps directly to 1 number a dictionary/hashmap/object is the perfect data structure to hold this data.</p>
 <div class="code-block relative mt-6 first:mt-0 group/code"><div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">value_to_colour</span> <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>		<span style="color:#ae81ff">0</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#141412&#39;</span>,
 </span></span><span style="display:flex;"><span>		<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#744418&#39;</span>,
@@ -757,8 +816,26 @@ When i work on any electronics project and forget what the resistance of the res
     </button>
   </div>
 </div>
+<p><em>Notice that we made the <code>color : black</code> for option 9 as the background is white</em></p>
+<p>Repeat the code for bands 2 and 3. For band 4 make sure to change the colours.</p>
 <h3>Step 3<span class="absolute -mt-20" id="step-3-1"></span>
-    <a href="#step-3-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><!-- raw HTML omitted -->
+    <a href="#step-3-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Now we need a image of a resistor. We are gonna change the colour of the bands through the dropdown options. Therefore the best image format would be an svg. Find any SVG online or make you own. The one i used can be downloaded from here : <a href="https://openclipart.org/detail/276048/47k-ohm-resistor" target="_blank" rel="noopener">Resistor SVG</a></p>
+<h3>Step 4<span class="absolute -mt-20" id="step-4"></span>
+    <a href="#step-4" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Paste the svg code or link it in your html.</p>
+<h3>Step 5<span class="absolute -mt-20" id="step-5"></span>
+    <a href="#step-5" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Now let&rsquo;s focus on the logic of our app. Depending on the colors chosen, we need to calculate the resistance. Here&rsquo;s how it works:</p>
+<ul>
+<li>The first band represents the units.</li>
+<li>The second band represents the tens.</li>
+<li>The third band represents the power to which the value is raised.</li>
+</ul>
+<h5>Example<span class="absolute -mt-20" id="example"></span>
+    <a href="#example" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>Let Band 1 is Red, Band 2 is Brown, and Band 3 is Violet, the values would be: Band 1 = 2, Band 2 = 10, and Band 3 = 7.</p>
+<p>To calculate the resistance, we add Band 1 and Band 2 to get 12, and then multiply it by
+$(10^7)$.</p>
+<p>Resistors arent perfect components so therefore have some error. We handle this by inlcuding a tolerance which is shown through the 4th band. Let our 4th band be green. Therefore it has a ± 0.5 % tolerance. When we work thios out our we get the following :
+210000000 ohms ± 1050000 ohms</p>
+<!-- raw HTML omitted -->
 <h3>Conclusion<span class="absolute -mt-20" id="conclusion"></span>
     <a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section"></a></h3>
         </div>
@@ -785,6 +862,24 @@ When i work on any electronics project and forget what the resistance of the res
 
 <script defer src="/blog/lib/flexsearch/flexsearch.bundle.min.0425860527cc9968f9f049421c7a56b39327d475e2e3a8f550416be3a9134327.js" integrity="sha256-BCWGBSfMmWj58ElCHHpWs5Mn1HXi46j1UEFr46kTQyc="></script>
     <script defer src="/blog/en.search.js" integrity=""></script>
+<link type="text/css" rel="stylesheet" href="/blog/lib/katex/katex.min.df9ef84e97d38557de02183e238f8ddfd10988b37741492e12c3157bc856011e.css" integrity="sha256-3574TpfThVfeAhg&#43;I4&#43;N39EJiLN3QUkuEsMVe8hWAR4=" />
+  <script defer src="/blog/lib/katex/katex.min.d4f0ea25c4ccb7986b229d6427794b7063cf3209b0376cf5a64bfc4dd7918c95.js" integrity="sha256-1PDqJcTMt5hrIp1kJ3lLcGPPMgmwN2z1pkv8TdeRjJU="></script>
+  <script defer src="/blog/lib/katex/auto-render.min.9cb8dacfc086c2966c9ec4ba54f4a2dc43b7cbe2b33cec1a2743d886c7fb47a7.js" integrity="sha256-nLjaz8CGwpZsnsS6VPSi3EO3y&#43;KzPOwaJ0PYhsf7R6c="></script>
+  <script defer src="/blog/lib/katex/mhchem.min.f0ca03df194b8c3d6017ff455db6a0ef98857905663fa311a6cded788b15340b.js" integrity="sha256-8MoD3xlLjD1gF/9FXbag75iFeQVmP6MRps3teIsVNAs="></script>
+  <script>
+    
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true },
+        ],
+        throwOnError: false,
+      });
+    });
+  </script>
 
 
 </html>
